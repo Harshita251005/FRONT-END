@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exwecise  4</title>
+    <!---design a navbar after designing a navbar make a stylesheet in which i will change a variable and according to those variables the colour of your colour will change that is, you have to make a multicoloured navbar and you can do this simply by using CSS variables-->
+    <style>
+        *{padding: 0px;margin: 0px;font-family:'Times New Roman', Times, serif;margin-top: 2px;}
+        :root{--main-bg-color:black;
+            --secondary-color:pink;
+        --primary-color:white;}
+        /* :root{--main-bg-color:white;
+            --secondary-color:#d3d3d3;
+        --primary-color:black;} */
+        
+
+
+        body{background-color: var(--secondary-color);}
+        .navbar{
+            border: 2px solid white; height:40px;border-radius: 100px;background-color:var(--main-bg-color); cursor: pointer;color: var(--primary-color);
+        }
+        ul{margin-top: 10px;}
+        ul li {list-style: none;display: inline;font-weight:bolder;padding: 33px;}
+      ul li input[type=search]{ border-radius: 100px;float: right;margin-right: 16px;margin-top: 0px;}
+        ul li a {text-decoration: none;color: var(--primary-color);}
+
+    
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li> <a href="/">About</a></li>
+            <li><a href="/">Profile</a></li>
+            <li><a href="/">Contact Us</a></li>
+            <li><a href="/">Service</a></li>  
+            <li><input type="search" value="search" name="search"> </li> 
+        </ul>
+    </div>
+</body>
+
+</html>

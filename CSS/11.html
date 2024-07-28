@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS TRANSFORM & TRANSITION</title>
+    <style> 
+        .container{
+            width:100vw;
+            height: 80vh;
+            border:  2px solid brown;
+        }
+        .items{ height: 50px;
+        width: 50px;
+    background-color: beige;
+border: 2px solid black;
+/* animation-name: abcanimation;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: cubic-bezier(0, 0, 0, 0.96);
+animation-delay: 1s; */
+/* animation-direction: alternate-reverse; */
+/* animation-play-state: running; */
+animation: abcanimation 1s 1s infinite alternate-reverse,
+             abc 1s 1s infinite alternate-reverse;
+}
+/* transform: rotate(200deg); */
+/* transform: rotateX(40deg); */
+/* transform: scaleX(1.96); */
+/* transform: skew(5deg); */
+/* transform: translateX(34px) skewX(40deg)  translateX(45%); */
+/* transform-origin: 30% 10%; */
+/* transition-property: background-color transform;
+transition-duration: 3s;
+transition-timing-function: ease-in-out;
+transition-delay: 1s; */
+/* transition: all 3s ease-in-out 1s;
+justify-content: center;
+align-items: center;
+display: flex;}
+.translate{ transform: translateX(10vh) translateY(10vw) scale(2);
+background-color: blue; } */
+
+@keyframes abcanimation{from{background-color: red;}
+to{transform: translateX(1000px); background-color: yellow;}}
+
+@keyframes abc{ 0%{transform: rotate(100deg);}
+20% {transform: rotate(200deg);}
+50%{transform: rotate(220deg);}
+80%{transform: rotate(300deg);}
+100%{transform: rotate(360deg);}}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items translate">1</div>
+        <!-- <div class="items item-2">2</div>
+        <div class="items item-3">3</div>
+        <div class="items item-4" >4</div>
+        <div class="items item-5">5</div></div> -->
+</body>
+</html>

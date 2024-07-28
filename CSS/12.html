@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>object fit and position and filters</title>
+    <style>
+        .container{
+            height: 400px;
+            width: 400px;
+            /* background-image:url( https://nikonrumors.com/wp-content/uploads/2014/09/Nikon-D750-sample-photo1.jpg); */
+            border: 2px solid black;
+            /* background-repeat: no-repeat;
+            background-position: center center; */
+            img{
+                /* filter: blur(5px); */
+                /* filter: contrast(200px); */
+                /* filter: grayscale(20%); */
+                /* filter: drop-shadow(200); */
+                filter: opacity(0.9);
+            }
+        }
+    
+        img{width:400px; height:400px;
+        /* object-fit: contain; */
+        /* object-position: bottom right; */
+    /* object-fit: cover; */
+/* object-fit: fill; */
+}
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://nikonrumors.com/wp-content/uploads/2014/09/Nikon-D750-sample-photo1.jpg">
+
+    </div>    
+
+</body>
+</html>

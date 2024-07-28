@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* univeral selector */
+        *{ border: 2px solid black; margin: 10px; padding:7px;}
+        .green {background-color: yellow;}
+        #purple{background-color: pink;}
+        /* child selector */
+        div>p{color: blue; background-color: red;}
+        /* desendant sellector */
+        div>article{color: yellow; background-color:green;}
+        /* psedo selllector */
+        a:visited{ color: green;}
+        a:link{ color: purple;}
+        a:hover{color: red;}
+        a:active{background-color: greenyellow;}
+        p:first-child{background-color: aqua;}
+    </style>
+</head>
+<body>
+    <main class="one"><p>I am first</p>
+    <p>I am second</p></main>
+    <div class="green">
+        Hey my name is harshita.
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum aliquam quaerat tempore accusamus, eveniet ut nesciunt, excepturi officia repellendus dolorum eius ipsa. Sit excepturi debitis consectetur blanditiis tenetur quia cupiditate?
+       
+       <article> Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, aperiam nesciunt ab dolores eum tempore maiores labore libero odio praesentium, modi illo quas cumque exercitationem, nostrum laudantium explicabo necessitatibus incidunt.</article> </p>
+    </div>
+    <div class="green">
+        I am from barnala.
+    </div>
+    <span id="purple">
+        I am from barnala.
+    </span>
+    <div>
+        <a href="https:www.google.com//">Go to Google</a>
+        <a href="https:www.facebook2.com//">Go to Facebook</a></div>
+</body>
+</html>

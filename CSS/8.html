@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on CSS Selector</title>
+    <style> .box:first-child{background-color: yellow;}
+        .box::first-line{color: blue;}
+        .box::first-letter{color: violet;}
+        .boxes *{
+            color: blue;
+            border: 2px solid black;
+        }
+        p,a, .box, [data-color="primary"]{
+            padding-top: 45px;
+        }
+       .boxes::before{content: "Harry is Good";}
+       ::selection{color: red;
+    background-color: black;}
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div data-color="primary" class="box"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusamus sint facere illum quae nemo repudiandae sed non ex magnam optio placeat corporis minima totam minus autem, cupiditate assumenda ullam est, consequatur quis! Adipisci animi facere fuga dolorum odio aperiam commodi distinctio nam repellat? Deserunt, provident voluptatem ex iure tempora laudantium inventore necessitatibus, eveniet quas corrupti dolorem facere aspernatur quae corporis numquam dolorum velit cum reprehenderit sapiente! Fuga aliquid ex impedit molestiae natus aspernatur praesentium debitis quae, numquam quam voluptatibus obcaecati eaque ullam eum, harum dolor corporis quasi odio iste temporibus adipisci repellendus, necessitatibus saepe? Adipisci fugit inventore, harum esse quod quia cum quam explicabo rem aliquam vitae excepturi praesentium, hic quas aliquid sed, earum officiis. Atque eos facilis mollitia soluta itaque consequuntur dicta numquam asperiores qui, voluptate at earum tempore rem quidem fuga maxime sapiente repellat aspernatur nihil. Minima nulla pariatur aliquid eveniet doloribus similique fuga consequatur earum hic eligendi harum est, dolorem provident dolore, ipsum vel debitis itaque corporis, quod quas totam. Consectetur tenetur explicabo placeat suscipit autem alias in, aliquam quod, eligendi natus id. Ab obcaecati magni possimus voluptas culpa iusto alias odit repellat, molestias optio at eveniet quo quasi dicta accusamus, doloremque aliquam reprehenderit. Dolores, repudiandae?</div>
+        <div class="box"> my name is</div>
+        <div class="box"> my name is</div>
+        <div class="box"> my name is</div>
+    </div>
+</body>
+</html>
