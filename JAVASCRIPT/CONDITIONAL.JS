@@ -20,3 +20,33 @@
 // b=8;
 // let c = a > b ? (a - b) : ( b - a);
 // console.log(c);
+
+
+
+// let a=2;
+// let b=5;
+// let c="5";
+// console.log(a+b);
+// console.log(a-b);
+// console.log(a*b);
+// console.log(a/b);
+// console.log(a**b);
+// console.log(b==c);
+// console.log(b===c);
+
+
+
+
+
+// alert ("hello");
+// let num = 9;//prompt("enter aa number");
+// if(num>5){
+//     console.log("greter");
+// }
+// else{
+//     console.log("less");
+// }
+
+
+
+

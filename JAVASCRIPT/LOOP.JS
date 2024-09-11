@@ -3,18 +3,30 @@
 //     console.log(a+i);
 // }
 
+
 // let obj={
 //     name :"harshita",
 //     role : "student",
 //     company : "university"
 // }
-// for (const key in obj) {
+
+
+
+// for (const key in obj) {             //for objects
 //         const element = obj[key];
 //         console.log(key,element)   
 //     }
-// for (const c of "harshita") {
+
+
+
+// let size = 0;
+// for (const c of "harshita") {    //for string and array use
 //     console.log(c);
+//     size++;
 // }
+// console.log(size);
+
+
 
 // let i=1;
 // while (i<6){
@@ -28,3 +40,9 @@
 //     console.log(i)
 //     i++
 // } while (i<5);
+
+
+
+
+
+
