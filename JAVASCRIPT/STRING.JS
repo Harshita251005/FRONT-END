@@ -12,7 +12,8 @@ console.log(str.slice(1,8));              //returns part of string
 console.log(str.concat(str1));
 console.log(str.replace("A","M"));
 console.log(str.charAt(0));      //to find character
-
+let message = "An idiot in the class always do ruckus. ";
+console.log(message.repeat(3));
 
 
 
