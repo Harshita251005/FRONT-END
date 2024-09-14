@@ -26,3 +26,14 @@
 
 // func1(34);
 // func1(67);
+
+
+// function myfunction(msg){
+//     console.log(msg);
+// }
+
+// myfunction("i love india");
+// myfunction("i love myself");
+// myfunction("i love my family");
+
+
