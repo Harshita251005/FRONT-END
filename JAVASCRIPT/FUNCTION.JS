@@ -28,20 +28,7 @@
 // func1(67);
 
 
-// function myfunction(msg){
-//     console.log(msg);
-// }
 
-// myfunction("i love india");
-// myfunction("i love myself");
-// myfunction("i love my family");
-
-
-// function myfunction(){
-//     console.log("i love india");
-//     console.log("i love myself");
-// }
-// myfunction();
 
 
 // function sum(x,y){ //function parameters are local variable 
@@ -67,21 +54,11 @@
 // console.log(arrowmul);
 
 
-// function countvowel(str) {
-//     let count = 0;
-//     for (const char of str) 
-//     {
-//         if (char == "a" || char == "e" || char == "i" || char == "o" || char == "u") {
-//             count++;
-//         }
-
-//     }
-//     console.log(count);
-// }
 
 
 
 //for each loop in array
+
 // let array = [1, 2, 3, 4, 5];
 // array.forEach(function printVal(val) {
 //     console.log(val);
@@ -127,4 +104,51 @@
 //     return res+cur;
 // });
 // console.log(sum);
+
+
+//1
+
+// function myfunction(msg){
+//     console.log(msg);
+// }
+
+// myfunction("i love india");
+// myfunction("i love myself");
+// myfunction("i love my family");
+
+
+//2
+
+// function myfunction(){
+//     console.log("i love india");
+//     console.log("i love myself");
+// }
+// myfunction();
+
+
+
+//3
+
+// function sum(a,b){
+//     let ans = a + b ;
+//     console.log(ans);
+// }
+// sum(3,4);
+
+
+//4
+
+
+// function countvowel(str) {
+//     let count = 0;
+//     for (const char of str) 
+//     {
+//         if (char == "a" || char == "e" || char == "i" || char == "o" || char == "u") {
+//             count++;
+//         }
+
+//     }
+//     console.log(count);
+// }
+
 

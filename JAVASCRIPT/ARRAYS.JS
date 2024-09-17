@@ -1,7 +1,7 @@
-let marks =[97,34,56,78,87];
+// let marks =[97,34,56,78,87];
 // console.log(marks);
 // console.log(marks.length);
-let fruits=["apple","mango","grapes","kiwi"];
+// let fruits=["apple","mango","grapes","kiwi"];
 // console.log(fruits);
 // console.log(fruits.length);
 // console.log(typeof(marks));
@@ -16,6 +16,7 @@ let fruits=["apple","mango","grapes","kiwi"];
 // }
 
 //for of
+
 // for(let fruit of fruits){
 //     console.log(fruit);
 // }
