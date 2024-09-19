@@ -152,3 +152,37 @@
 // }
 
 
+//scope
+
+//1.global scope
+
+// let a = " global scope";
+// var b = " global scope";
+// const c = " global scope";
+
+// function scopeGlobal() {
+//     console.log(a);
+//     console.log(b);
+//     console.log(c);
+// }
+// scopeGlobal();
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+
+
+
+
+//2.function scope
+
+
+// let c = 50;
+// function calsum(a, b) {
+//     let c = a + b;
+//     console.log(c);
+// }
+// calsum(5, 2);
+// console.log(c);
+
+
