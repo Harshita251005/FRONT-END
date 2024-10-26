@@ -42,17 +42,52 @@
 
 
 
-// function mulfunc(a,b){
-//     return 3*4;
+// function mulfunc(c,d){
+//     return c*d;
 // }
 
-// const arrowmul=(a,b) => {
-//     console.log (3*4);
+
+//arrow function
+ 
+// const arrowmul=(c,d) => {
+//     console.log (c*d);
 // };
+// arrowmul(3,4);
+
+
 
 // let arrowmul=5;
 // console.log(arrowmul);
 
+
+//count vowels function
+// function countvowels(str){
+//     let count =0;
+//     for(const char of str){
+//         if(char=="a"|| char =="e"|| char=="i" || char=="o" || char=="u"){
+//             count++;
+//         }
+//     }
+//     console.log(count);
+//     return count;
+// }
+// countvowels ("apnacollege");
+
+
+
+
+//by arrow function
+// const countvowel=(str)=>{
+//         let count =0;
+//     for(const char of str){
+//         if(char=="a"|| char =="e"|| char=="i" || char=="o" || char=="u"){
+//             count++;
+//         }
+//     }
+//     console.log(count);
+//     return count;
+// }
+// countvowel("apnacollege");
 
 
 
@@ -76,6 +111,8 @@
 
 
 //map
+
+
 // let array=[1,2,3,4,5];
 // let newarr=array.map((val)=>{
 //     // console.log(val);
@@ -86,6 +123,8 @@
 
 
 //filter
+
+
 // let array=[1,2,3,4,6,5];
 // let even =array.filter((val)=>{
 //     return val%2===0;
@@ -99,11 +138,13 @@
 
 //reduce
 
+
 // let array=[1,2,3,4,6,5];
 // const sum=array.reduce((res,cur)=>{
 //     return res+cur;
 // });
 // console.log(sum);
+
 
 
 //1
@@ -187,3 +228,10 @@
 
 
 
+//fiter out the marks of student who scored greater than 90
+
+// let marks=[65,99,87,98,45];
+// let toppers=marks.filter((val)=>{
+//     return val>90;
+// })
+// console.log(toppers);

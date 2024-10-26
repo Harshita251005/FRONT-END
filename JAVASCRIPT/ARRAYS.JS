@@ -15,16 +15,20 @@
 //     console.log(fruits[i]);
 // }
 
+
 //for of
 
 // for(let fruit of fruits){
 //     console.log(fruit);
 // }
 
-//Uppercase
+
+
+// Uppercase
 // for(let fruit of fruits){
 //     console.log(fruit.toUpperCase());
 // }
+
 
 // //sum and avg
 // let sum =0;
@@ -32,9 +36,11 @@
 //     sum=sum+val;
 // }
 
+
 // let avg =sum/marks.length;
 // console.log(sum);
 // console.log(avg);
+
 
 //quesion1
 // let marks_of_student=[85,97,44,37,76,60];
@@ -59,56 +65,48 @@
 
 
 
-//push= add to end
+//push = add to end
 // console.log(fruits.push("banana"));
 // console.log(fruits);
-// //pop= delete from end and return
+
+// //pop = delete from end and return
 // console.log(fruits.pop());
 // console.log(fruits);
-//tostring=convert array to string
+
+//tostring =convert array to string
 // console.log(fruits.toString());
+
 //concat = join multiple array
 // console.log(marks.concat(fruits));
 // // console.log(fruits);
+
 // //unshift = add to start
 // console.log(fruits.unshift("grapes"));
 // console.log(fruits);
+
 // //shift=delete from start
 // console.log(fruits.shift());
 // console.log(fruits);
 
 // slice = retun a piece of the array
 // console.log(fruits.slice(1,3));
+
+
 // // splice= change original array
+//(add,remove,replace)
 // console.log(marks.splice(0,2,23));
 
 
 // let array=["bloomberg","microsoft","uber","google","ibm","netflix"];
-// // array.shift();
-// // console.log(array);
-// // array.splice(0,2,"ola");
-// // console.log(array);
+// array.shift();
+// console.log(array);
+// array.splice(0,2,"ola");
+// console.log(array);
 // array.push("amazon");
 // console.log(array);
 
 
 
-//question 1
-
-// var cart=[{id:1,name:'iphone_16',price:164000,qty:2},{
-//     id:2,name:'iphone_15',price:84000,qty:2},];
-
-// const totalprice=cart.reduce((total,item)=>{
-//     return total+item.price*item.qty;
-// },0);
-// console.log(totalprice);
-
-
-// var squar=[1,2,3,4,5,6,7];
-// const sqr=squar.map((val)=>{
-//     return val**2;
-// })
-// console.log(sqr);
 
 
 

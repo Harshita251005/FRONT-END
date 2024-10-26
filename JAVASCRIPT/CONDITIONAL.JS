@@ -25,14 +25,14 @@
 
 // let a=2;
 // let b=5;
-// let c="5";
+// let d="5";
 // console.log(a+b);
 // console.log(a-b);
 // console.log(a*b);
 // console.log(a/b);
 // console.log(a**b);
-// console.log(b==c);
-// console.log(b===c);
+// console.log(b==d);
+// console.log(b===d);
 
 
 
@@ -46,6 +46,8 @@
 // else{
 //     console.log("less");
 // }
+
+
 
 
 

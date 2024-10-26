@@ -11,14 +11,14 @@
 // }
 
 
-
+// //for in
 // for (const key in obj) {             //for objects
 //         const element = obj[key];
 //         console.log(key,element)   
 //     }
 
 
-
+//for of
 // let size = 0;
 // for (const c of "harshita") {    //for string and array use
 //     console.log(c);
@@ -42,7 +42,14 @@
 // } while (i<5);
 
 
+//game
+// let gamenum = 25;
+// let usernum=prompt("guess the game num.");
 
+// while(usernum!=gamenum){
+//     usernum=prompt("u entered wrong number guess again");
+// }
 
+// console.log("u win the game");
 
 
